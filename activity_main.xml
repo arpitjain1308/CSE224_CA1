@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        tools:ignore="Autofill,ContentDescription,HardcodedText,TextFields,UselessParent">
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/arpit" />
+
+        <TextView
+            android:id="@+id/stname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Student Name"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/vstname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter name"
+            android:layout_marginTop="6dp" />
+
+        <TextView
+            android:id="@+id/regno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registration Number"
+            android:textSize="16sp"
+            android:layout_marginTop="12dp" />
+
+        <EditText
+            android:id="@+id/vregno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter registration number"
+            android:layout_marginTop="6dp" />
+
+        <TextView
+            android:id="@+id/tcc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total classes conducted"
+            android:textSize="16sp"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="75dp"/>
+
+        <EditText
+            android:id="@+id/vtcc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter total classes conducted"
+            android:layout_marginTop="6dp" />
+
+        <TextView
+            android:id="@+id/ca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Classes attended"
+            android:textSize="16sp"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="98dp"/>
+
+        <EditText
+            android:id="@+id/vca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter classes attended"
+            android:layout_marginTop="6dp" />
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CHECK ELIGIBILITY"
+            android:layout_marginTop="18dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
